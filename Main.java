@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 
 import com.anish.calabashbros.World;
 import com.anish.screen.Screen;
+import com.anish.screen.StartScreen;
 import com.anish.screen.WorldScreen;
 
 import asciiPanel.AsciiFont;
@@ -22,7 +23,7 @@ public class Main extends JFrame implements KeyListener {
         terminal = new AsciiPanel(World.WIDTH, World.HEIGHT, AsciiFont.TALRYTH_15_15);
         add(terminal);
         pack();
-        screen = new WorldScreen();
+        screen = new StartScreen();
         addKeyListener(this);
         repaint();
 
