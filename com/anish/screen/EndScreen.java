@@ -7,7 +7,7 @@ public class EndScreen extends RestartScreen{
 
     public void displayOutput(AsciiPanel terminal){
         terminal.write("Congratulations!", 0, 0);
-        terminal.write("Press Enter to start again", 0, 1);
+        terminal.write("Press 1 to start again", 0, 1);
     }
 
     

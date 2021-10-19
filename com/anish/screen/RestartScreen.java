@@ -32,7 +32,7 @@ public abstract class RestartScreen implements Screen {
     @Override
     public Screen respondToUserInput(KeyEvent key) {
         switch (key.getKeyCode()) {
-            case KeyEvent.VK_ENTER:
+            case KeyEvent.VK_1:
                 return new WorldScreen();
             default:
                 return this;
